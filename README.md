@@ -1,6 +1,4 @@
-# GetCleanData---
-title: "ReadMe"
-output: html_document
+# README Get and Clean Data Project---
 ---
 
 This Read Me file describes variables, data, and transformations from the original Samsung Galaxy S data set described below.
