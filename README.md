@@ -3,6 +3,9 @@
 
 This Read Me file describes variables, data, and transformations from the original Samsung Galaxy S data set described below.
 
+R code
+======================================
+This was the R code used to create the new data set. The comments provide more detail to what the code is doing.
 
 ```{r}
 library(plyr)
@@ -51,6 +54,8 @@ final.data = dcast(melt(mean.sd.data,id = c("subject","activity")),subject+activ
 write.table(final.data,file = paste(original.wd,"/clean_data_project.txt",sep=""), row.names = FALSE,col.names = TRUE,sep="\t")
 
 ```
+Previous Data Section
+======================================
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
